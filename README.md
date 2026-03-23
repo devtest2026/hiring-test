@@ -43,9 +43,9 @@ npm run dev   # runs on port 5173
 
 ---
 
-## 🛠️ Open Task: Crypto Payment Gateway
+## 🛠️ Open Test Task: Crypto Payment Gateway
 
-> **This is an open development task.** The platform currently has Premium ($50) and Elite ($99) subscription plans with Pay buttons on the Subscription page, but no payment backend or admin system. We are looking for a developer to implement this end-to-end.
+> **This is an open test development task.** The platform currently has Premium ($50) and Elite ($99) subscription plans with Pay buttons on the Subscription page, but no payment backend or admin system. We are looking for a developer to implement this end-to-end.
 
 ### What already exists
 
@@ -61,23 +61,7 @@ npm run dev   # runs on port 5173
 Add the following to the database:
 
 ```sql
--- Add subscription columns to users table
-ALTER TABLE users
-  ADD COLUMN subscription_plan TEXT DEFAULT 'free',
-  ADD COLUMN subscription_expires_at TIMESTAMPTZ;
-
--- Create payment_requests table
-CREATE TABLE payment_requests (
-  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-  user_name TEXT NOT NULL,
-  user_email TEXT NOT NULL,
-  plan TEXT NOT NULL,           -- 'premium' or 'elite'
-  chain TEXT NOT NULL,          -- selected blockchain network
-  tx_hash TEXT,                 -- transaction hash submitted by user
-  status TEXT DEFAULT 'pending', -- 'pending', 'approved', 'rejected'
-  created_at TIMESTAMPTZ DEFAULT now(),
-  updated_at TIMESTAMPTZ DEFAULT now()
-);
+...
 ```
 
 #### 2. Backend API Endpoints
