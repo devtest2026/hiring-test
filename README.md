@@ -43,7 +43,7 @@ npm run dev   # runs on port 5173
 
 ---
 
-## 🛠️ Open Test Task: Crypto Payment Gateway
+## 🛠️ Open Test Task: Crypto Payment Gateway( 4h )
 
 > **This is an open test development task.** The platform currently has Premium ($50) and Elite ($99) subscription plans with Pay buttons on the Subscription page, but no payment backend or admin system. We are looking for a developer to implement this end-to-end.
 
