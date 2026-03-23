@@ -27,20 +27,6 @@ A full-stack trading strategy platform built with React, Node.js, and Supabase.
     └── .env.example
 ```
 
-## ⚙️ Environment Variables
-
-### Frontend (`frontend/.env`)
-```
-VITE_API_URL=https://your-backend.vercel.app/api
-```
-
-### Backend (`backend/.env`)
-```
-SUPABASE_URL=your_supabase_url
-SUPABASE_SERVICE_KEY=your_supabase_service_key
-JWT_SECRET=your_jwt_secret
-```
-
 ## 🚀 Local Setup
 
 ```bash
