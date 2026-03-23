@@ -33,7 +33,7 @@ A full-stack trading strategy platform built with React, Node.js, and Supabase.
 # Backend
 cd backend
 npm install
-npm run dev   # runs on port 3001
+npm start   # runs on port 3001
 
 # Frontend
 cd frontend
