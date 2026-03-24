@@ -1,31 +1,6 @@
-# Trading Strategy Platform
+## 🛠️ Open Test Task: Crypto Payment Gateway( 4h )
 
-A full-stack trading strategy platform built with React, Node.js, and Supabase.
-
-## 🧱 Tech Stack
-
-- **Frontend:** React, TypeScript, Vite, Tailwind CSS
-- **Backend:** Node.js, Express, deployed on Vercel
-- **Database:** Supabase (PostgreSQL)
-- **Auth:** JWT-based login/signup
-
-## 📁 Project Structure
-
-```
-/
-├── frontend/          # React + Vite frontend
-│   ├── src/
-│   │   ├── pages/     # Route pages
-│   │   ├── components/
-│   │   └── lib/       # API helpers
-│   └── .env.example
-└── backend/           # Express API
-    ├── src/
-    │   ├── routes/
-    │   ├── controllers/
-    │   └── middleware/
-    └── .env.example
-```
+> **This is an open test development task.** The platform currently has Premium ($50) and Elite ($99) subscription plans with Pay buttons on the Subscription page, but no payment system. 
 
 ## 🚀 Local Setup
 
@@ -40,13 +15,6 @@ cd frontend
 npm install
 npm run dev   # runs on port 5173
 ```
-
----
-
-## 🛠️ Open Test Task: Crypto Payment Gateway( 4h )
-
-> **This is an open test development task.** The platform currently has Premium ($50) and Elite ($99) subscription plans with Pay buttons on the Subscription page, but no payment system. 
-
 ### What needs to be built
 
 #### 1. Supabase Schema
