@@ -81,55 +81,31 @@ When user clicks Pay on the Subscription page, show a modal with:
 - **Step 2:** Display our wallet address + QR code, form for user name, email, and transaction hash
 - **Step 3:** Confirmation screen after submission
 
-Wallet address: `0xd4062e68022ef5235898CBc4f069A0df4fF2Ea6C`
-
-Plan prices:
-- Premium: **$50/month**
-- Elite: **$99/month**
-
-#### 4. Admin Panel
-
-- Protected route — only accessible with admin credentials
-- Table showing all payment requests (name, email, plan, chain, tx hash, status, date)
-- Approve ✓ button — sets user `subscription_plan` and `subscription_expires_at` (+30 days) in DB
-- Reject ✗ button — marks request as rejected
-
-### Deliverables
-
-- [ ] SQL migration file for new tables/columns
-- [ ] Backend payment routes (`/api/payments/...`)
-- [ ] Payment modal component (frontend)
-- [ ] Admin panel with approve/reject
-- [ ] README update with any new env variables
-- [ ] **Live deployed URLs** — both frontend and backend must be deployed and working
-
-### Deployment Requirements
-
-- Frontend deployed on **Vercel** (or equivalent)
-- Backend deployed on **Vercel / Railway / Render** (or equivalent)
-- All environment variables configured on the hosting platform
-- The full flow must work on the live site:
-  1. User selects plan → clicks Pay
-  2. Selects chain, sends crypto to wallet address
-  3. Submits tx hash + name + email
-  4. Admin logs in, sees the request
-  5. Admin approves → user subscription activates
-- **Do not submit localhost screenshots** — only live URL demos will be accepted
-
 ### Evaluation Criteria
 
-- Clean, readable code
-- Proper error handling on all endpoints
-- Admin route is secure (not accessible to regular users)
-- No hardcoded secrets or API keys
-- Live site works without issues at time of review
+| Area | Weight |
+|------|--------|
+| Code Quality & Architecture | 30% |
+| Feature Implementation | 30% |
+| Performance | 20% |
+| User Experience | 10% |
+| Unit Testing | 10% |
 
 ---
 
 ## 📬 Submission
+Link to your forked GitHub repository with the implementation
 
-Please provide:
-1. Link to your forked GitHub repository with the implementation
-2. Live frontend URL
-3. Live backend URL
-4. Admin login credentials for review (temporary test account)
+**Live Preview:** [https://tradex.pumapulse.org](https://tradex.pumapulse.org)
+
+---
+
+## Success Criteria
+
+Deliver a production-quality chart implementation that demonstrates senior-level skills in architecture, performance optimization, and user experience design.
+
+---
+
+
+_Maintained by [PumaPulse Org](https://pumapulse.org)_
+
