@@ -47,13 +47,6 @@ npm run dev   # runs on port 5173
 
 > **This is an open test development task.** The platform currently has Premium ($50) and Elite ($99) subscription plans with Pay buttons on the Subscription page, but no payment backend or admin system. We are looking for a developer to implement this end-to-end.
 
-### What already exists
-
-- User auth (signup, login, JWT)
-- Subscription page with Premium / Elite Pay buttons
-- Basic admin login page (no payment management yet)
-- Supabase `users` table (no subscription columns yet)
-
 ### What needs to be built
 
 #### 1. Supabase Schema
