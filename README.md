@@ -112,7 +112,7 @@ Link to your forked GitHub repository with the implementation
 
 ## Success Criteria
 
-Deliver a production-quality chart implementation that demonstrates senior-level skills in architecture, performance optimization, and user experience design.
+Deliver a production-quality Crypto Payment Gateway that demonstrates senior-level skills in architecture, performance optimization, and user experience design.
 
 ---
 
