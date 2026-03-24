@@ -52,6 +52,7 @@ When user clicks Pay on the Subscription page, show a modal with:
 - **Step 2:** Display our wallet address + QR code, form for user name, email, and transaction hash.
 - **Step 3:** Confirmation screen after submission
 
+---
 ### Evaluation Criteria
 
 | Area | Weight |
