@@ -1,6 +1,6 @@
-## 🛠️ Open Test Task: Crypto Payment Gateway( 4h )
+## 🛠️ Open Task: Crypto Payment Gateway( 4h )
 
-> **This is an open test development task.** The platform currently has Premium ($50) and Elite ($99) subscription plans with Pay buttons on the Subscription page, but no payment system. 
+> **This is an open development task.** The platform currently has Premium ($50) and Elite ($99) subscription plans with Pay buttons on the Subscription page, but no payment system. 
 
 ## 🚀 Local Setup
 
@@ -49,7 +49,7 @@ CREATE TABLE payment_requests (
 When user clicks Pay on the Subscription page, show a modal with:
 
 - **Step 1:** Chain selector (support at least 20 networks — Ethereum, BSC, Polygon, Arbitrum, Optimism, Avalanche, Solana, etc.)
-- **Step 2:** Display our wallet address + QR code, form for user name, email, and transaction hash
+- **Step 2:** Display our wallet address + QR code, form for user name, email, and transaction hash.
 - **Step 3:** Confirmation screen after submission
 
 ### Evaluation Criteria
